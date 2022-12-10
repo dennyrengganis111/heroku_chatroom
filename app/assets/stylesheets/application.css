@@ -68,19 +68,6 @@
     padding: 5px;
     border-radius: 10px;
     margin-bottom: 10px;
-    background-color:#0073c4;
+    background-color:#555555;
     padding: 10px;
  }
-
- .message-box2{
-   word-wrap: break-word;
-   width: fit-content;
-   max-width: 40%;
-   padding: 5px;
-   border-radius: 10px;
-   margin-bottom: 10px;
-   background-color: #0073c4;
-   padding: 10px;
-   margin-left: auto; 
-   margin-right: 0;
-}

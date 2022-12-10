@@ -1,12 +1,12 @@
 <div id="chatroom_container" class="row">
     <div id="side_panel" class="col-md-3 col-sm-3">
         <h5> <%= current_user.email %></h5>
-        <h4> Users</h4>
+        <h4> Direct Messages</h4>
         <%= turbo_stream_from "users"%>
         <div id="users">
             <%= render @users %>
         </div>
-        <h3> Rooms </h3>
+        <h3> Public Space </h3>
         <%= turbo_stream_from "rooms"%>
         <div id="rooms">
             <%= render @rooms%>
